@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32819.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "navalha-backend", "navalha-backend.csproj", "{74060996-E30A-41A9-9BFA-DAFE988382FF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "data", "..\data\data.csproj", "{CAB2F3C5-5D95-443C-89CE-4A68E495D0E7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{74060996-E30A-41A9-9BFA-DAFE988382FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{74060996-E30A-41A9-9BFA-DAFE988382FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{74060996-E30A-41A9-9BFA-DAFE988382FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{74060996-E30A-41A9-9BFA-DAFE988382FF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CAB2F3C5-5D95-443C-89CE-4A68E495D0E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CAB2F3C5-5D95-443C-89CE-4A68E495D0E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CAB2F3C5-5D95-443C-89CE-4A68E495D0E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CAB2F3C5-5D95-443C-89CE-4A68E495D0E7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E44AC9A1-0843-4C74-808A-A97776967204}
+	EndGlobalSection
+EndGlobal
