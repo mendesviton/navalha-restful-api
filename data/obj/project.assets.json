@@ -746,23 +746,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Lucas.Perin\\.nuget\\packages\\": {},
+    "C:\\Users\\Felipe.Bortolini\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Lucas.Perin\\Desktop\\apps\\navalha-restful-api\\data\\data.csproj",
+      "projectUniqueName": "C:\\Users\\Felipe.Bortolini\\Desktop\\navalha-restful-api\\data\\data.csproj",
       "projectName": "data",
-      "projectPath": "C:\\Users\\Lucas.Perin\\Desktop\\apps\\navalha-restful-api\\data\\data.csproj",
-      "packagesPath": "C:\\Users\\Lucas.Perin\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Lucas.Perin\\Desktop\\apps\\navalha-restful-api\\data\\obj\\",
+      "projectPath": "C:\\Users\\Felipe.Bortolini\\Desktop\\navalha-restful-api\\data\\data.csproj",
+      "packagesPath": "C:\\Users\\Felipe.Bortolini\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Felipe.Bortolini\\Desktop\\navalha-restful-api\\data\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\Lucas.Perin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Felipe.Bortolini\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -825,7 +825,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
       }
     }
   }
