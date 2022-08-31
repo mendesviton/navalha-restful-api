@@ -13,7 +13,11 @@ namespace data.ContextWebApi
         #region Props
         
 
-        public DbSet<ServicesModel> Services { get; set; }
+        public DbSet<BarberModel> Barber { get; set; }
+        public DbSet<AdressModel> Adress { get; set; }
+        public DbSet<BarberShopModel> BarberShop { get; set; }
+        public DbSet<ServicesModel> Service { get; set; }
+        public DbSet<ClientModel> Client { get; set; }
         #endregion
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
