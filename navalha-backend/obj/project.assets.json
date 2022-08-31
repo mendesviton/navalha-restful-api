@@ -1026,23 +1026,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Felipe.Bortolini\\.nuget\\packages\\": {},
+    "C:\\Users\\Guilherme.Milani\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Felipe.Bortolini\\Desktop\\navalha-restful-api\\navalha-backend\\navalha-backend.csproj",
+      "projectUniqueName": "C:\\Users\\Guilherme.Milani\\Desktop\\backend barbearia\\navalha-restful-api\\navalha-backend\\navalha-backend.csproj",
       "projectName": "navalha-backend",
-      "projectPath": "C:\\Users\\Felipe.Bortolini\\Desktop\\navalha-restful-api\\navalha-backend\\navalha-backend.csproj",
-      "packagesPath": "C:\\Users\\Felipe.Bortolini\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Felipe.Bortolini\\Desktop\\navalha-restful-api\\navalha-backend\\obj\\",
+      "projectPath": "C:\\Users\\Guilherme.Milani\\Desktop\\backend barbearia\\navalha-restful-api\\navalha-backend\\navalha-backend.csproj",
+      "packagesPath": "C:\\Users\\Guilherme.Milani\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Guilherme.Milani\\Desktop\\backend barbearia\\navalha-restful-api\\navalha-backend\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\Felipe.Bortolini\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Guilherme.Milani\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -1057,8 +1057,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\Felipe.Bortolini\\Desktop\\navalha-restful-api\\data\\data.csproj": {
-              "projectPath": "C:\\Users\\Felipe.Bortolini\\Desktop\\navalha-restful-api\\data\\data.csproj"
+            "C:\\Users\\Guilherme.Milani\\Desktop\\backend barbearia\\navalha-restful-api\\data\\data.csproj": {
+              "projectPath": "C:\\Users\\Guilherme.Milani\\Desktop\\backend barbearia\\navalha-restful-api\\data\\data.csproj"
             }
           }
         }
@@ -1108,7 +1108,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
       }
     }
   }
