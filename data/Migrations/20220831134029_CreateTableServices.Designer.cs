@@ -11,8 +11,8 @@ using data.ContextWebApi;
 namespace data.Migrations
 {
     [DbContext(typeof(WebApiContext))]
-    [Migration("20220829001707_createTableClientModel")]
-    partial class createTableClientModel
+    [Migration("20220831134029_CreateTableServices")]
+    partial class CreateTableServices
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -23,7 +23,7 @@ namespace data.Migrations
 
             NpgsqlModelBuilderExtensions.UseIdentityByDefaultColumns(modelBuilder);
 
-            modelBuilder.Entity("data.model.ClientModel", b =>
+            modelBuilder.Entity("data.model.ServicesModel", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -31,25 +31,23 @@ namespace data.Migrations
 
                     NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("Id"));
 
-                    b.Property<string>("Cep")
+                    b.Property<string>("Description")
                         .IsRequired()
                         .HasColumnType("text");
 
-                    b.Property<string>("Email")
-                        .IsRequired()
-                        .HasColumnType("text");
+                    b.Property<int>("Duration")
+                        .HasColumnType("integer");
 
-                    b.Property<string>("Name")
-                        .IsRequired()
-                        .HasColumnType("text");
+                    b.Property<decimal>("Price")
+                        .HasColumnType("numeric");
 
-                    b.Property<string>("Password")
+                    b.Property<string>("Service")
                         .IsRequired()
                         .HasColumnType("text");
 
                     b.HasKey("Id");
 
-                    b.ToTable("Client");
+                    b.ToTable("Services");
                 });
 #pragma warning restore 612, 618
         }

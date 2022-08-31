@@ -11,16 +11,19 @@ namespace data.ContextWebApi
     internal class WebApiContext : DbContext
     {
         #region Props
-        public DbSet<ClientModel> Client { get; set; }
+        
+
+        public DbSet<ServicesModel> Services { get; set; }
         #endregion
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseNpgsql("Host=localhost;" +
-                "Port=5432;" +
+            optionsBuilder.UseNpgsql("Host=192.168.0.104;" +
+                "Port=5433;" +
                 "Database=postgres;" +
                 "UserId=postgres;" +
-                "Password=123456");
+                "Password=123456;" +
+                "search path=geral");
         }
     }
 }
