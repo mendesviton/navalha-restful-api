@@ -6,10 +6,10 @@ EXPOSE 80
 
 FROM mcr.microsoft.com/dotnet/sdk:6.0 AS build
 WORKDIR /src
-COPY ["navalha-backend.csproj", "."]
-RUN dotnet restore "./navalha-backend.csproj"
+COPY ["navalha-backend/navalha-backend.csproj", "navalha-backend/"]
+RUN dotnet restore "navalha-backend/navalha-backend.csproj"
 COPY . .
-WORKDIR "/src/."
+WORKDIR "/src/navalha-backend"
 RUN dotnet build "navalha-backend.csproj" -c Release -o /app/build
 
 FROM build AS publish
