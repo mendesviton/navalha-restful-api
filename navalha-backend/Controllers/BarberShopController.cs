@@ -7,9 +7,7 @@ namespace navalha_backend.Controllers
 {
     public class BarberShopController : GenericController<BarberShopModel, BarberShopRepository>
     {
-        public BarberShopController() : base(new BarberShopRepository())
-        {
-        }
+      
 
     }
 }

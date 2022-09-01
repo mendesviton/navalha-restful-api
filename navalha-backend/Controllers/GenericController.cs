@@ -9,6 +9,12 @@ namespace WebApi.Controllers
     public class GenericController<T, R> : ControllerBase where T : BaseModel where R : BaseRepository<T>
     {
         private BaseRepository<T> repo;
+        public GenericController()
+        {
+            this.repo =  Activator.CreateInstance<R>();
+        }
+
+
 
         public GenericController(R repo)
         {

@@ -10,8 +10,6 @@ namespace navalha_backend.Controllers
     [ApiController]
     public class BarberController : GenericController<BarberModel, BarberRepository>
     {
-        public BarberController() : base(new BarberRepository())
-        {
-        }
+   
     }
 }

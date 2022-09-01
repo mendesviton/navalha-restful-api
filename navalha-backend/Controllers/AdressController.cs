@@ -9,8 +9,6 @@ namespace navalha_backend.Controllers
     [ApiController]
     public class AdressController: GenericController<AdressModel, AdressRepository>
     {
-        public AdressController() : base(new AdressRepository())
-        {
-        }
+      
     }
 }

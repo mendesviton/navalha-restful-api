@@ -12,14 +12,10 @@ namespace navalha_backend.Controllers
     [ApiController]
     public class ClientController : GenericController<ClientModel, ClientRepository>
     {
-        ClientRepository clientRepository;
+      
 
 
-        public ClientController() : base(new ClientRepository())
-        {
-        }
-
-       
+      
 
 
 
