@@ -22,12 +22,14 @@ namespace data.ContextWebApi
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseNpgsql("Host=zuplae.vps-kinghost.net;" +
-                "Port=5444;" +
+            optionsBuilder.UseNpgsql("Host=grupo_4;" +
+                "Port=5432;" +
                 "Database=postgres;" +
                 "UserId=postgres;" +
                 "Password=123456;" 
                 );
+          
+
         }
     }
 }
