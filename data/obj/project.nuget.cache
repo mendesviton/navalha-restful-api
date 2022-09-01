@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "cHvWIzsNQFy6JWq+uydmCcQQfjVvLlkgmUz7NDObyBqIaCny4gN29qoiLz4JkpBVhZUBxWaa0BCQ7aMYxsiRzQ==",
+  "dgSpecHash": "y9/DIPUdon0tiFORtibSuCHUDmmv/eywlbhqINI6hE0Tb9/tr3yvd3/L1JOdltabMEoDPuiItkyOkVANg2TRPg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Vitor.Santos\\Desktop\\barber-api\\navalha-restful-api\\data\\data.csproj",
+  "projectFilePath": "C:\\Users\\Vitor.Santos\\Desktop\\navalha-backend\\navalha-restful-api\\data\\data.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Vitor.Santos\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\Vitor.Santos\\.nuget\\packages\\microsoft.entityframeworkcore\\6.0.8\\microsoft.entityframeworkcore.6.0.8.nupkg.sha512",

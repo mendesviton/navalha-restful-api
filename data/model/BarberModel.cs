@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -16,7 +17,13 @@ namespace data.model
             public string PhoneNumber { get; set; }
             public string Cnpj { get; set; }
             public double Star { get; set; }
-            public override string ToString()
+
+        public int BarberShopId { get; set; }
+        [ForeignKey("BarberShopId")]
+
+
+        public BarberShopModel? BarberShop { get; set; }
+        public override string ToString()
             {
                 return base.ToString();
             }
